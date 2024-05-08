@@ -13,6 +13,9 @@
 #ifndef MINITALK_H
 # define MINITALK_H
 
+# ifndef PID_MAX
+#  define PID_MAX 4194304
+
 # include <signal.h>
 # include <stdlib.h>
 # include <unistd.h>
